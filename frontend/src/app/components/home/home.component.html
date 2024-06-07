@@ -1,0 +1,4 @@
+<app-user-profile (openEditProfileForm)="showForm($event)"></app-user-profile>
+@if (editForm) {
+    <app-edit-user-profile (closeEditProfileForm)="showForm($event)"></app-edit-user-profile>
+}
